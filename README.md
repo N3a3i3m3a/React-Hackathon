@@ -1,2 +1,2 @@
-# React-Hackathon
-Repository for react hackathon project
+# React-exercise
+Repo for react exercise

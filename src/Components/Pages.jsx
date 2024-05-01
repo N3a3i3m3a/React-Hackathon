@@ -5,34 +5,34 @@ const Pages = () => {
   return (
     <section>
       <div>
-      <NavLink to=''>Basic hooks</NavLink>
+      <NavLink to='/Hooks'>Basic hooks</NavLink>
       </div>
       <div>
-      <NavLink to=''>Data display</NavLink>
+      <NavLink to='/Data-display'>Data display</NavLink>
       </div>
       <div>
-      <NavLink to=''>CRUD</NavLink>
+      <NavLink to='/CRUD'>CRUD</NavLink>
       </div>
       <div>
-      <NavLink to=''>Data manipulation</NavLink>
+      <NavLink to='/Data-manipulatin'>Data manipulation</NavLink>
       </div>
       <div>
-      <NavLink to=''>Data selection</NavLink>
+      <NavLink to='/Data-selection'>Data selection</NavLink>
       </div>
       <div>
-      <NavLink to=''>Image handling</NavLink>
+      <NavLink to='/Image-handling'>Image handling</NavLink>
       </div>
       <div>
-      <NavLink to=''>Master rect router dom</NavLink>
+      <NavLink to='/Master-dom'>Master rect router dom</NavLink>
       </div>
       <div>
-      <NavLink to=''>Styling</NavLink>
+      <NavLink to='/Styling'>Styling</NavLink>
       </div>
       <div>
-      <NavLink to=''>Forms</NavLink>
+      <NavLink to='/Forms'>Forms</NavLink>
       </div>
       <div>
-      <NavLink to=''>State propagation</NavLink>
+      <NavLink to='/State-propagation'>State propagation</NavLink>
       </div>
     </section>
   )

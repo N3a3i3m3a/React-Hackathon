@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const Pages = () => {
   return (
-    <section>
+    <nav>
       <div>
       <NavLink to='/Hooks'>Basic hooks</NavLink>
       </div>
@@ -14,7 +14,7 @@ const Pages = () => {
       <NavLink to='/CRUD'>CRUD</NavLink>
       </div>
       <div>
-      <NavLink to='/Data-manipulatin'>Data manipulation</NavLink>
+      <NavLink to='/Data-manipulation'>Data manipulation</NavLink>
       </div>
       <div>
       <NavLink to='/Data-selection'>Data selection</NavLink>
@@ -34,7 +34,7 @@ const Pages = () => {
       <div>
       <NavLink to='/State-propagation'>State propagation</NavLink>
       </div>
-    </section>
+    </nav>
   )
 }
 

@@ -10,6 +10,7 @@ import Master_rrdom from './Pages/Master_rrdom'
 import State_propagation from './Pages/State_propagation'
 import Styling from './Pages/Styling'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Layout from './Components/Layout'
 
 const App = () => {
   return (

@@ -54,11 +54,11 @@ const Forms = () => {
   };
 
   return (
-    <div className='flex flex-col space-between'>
+    <div className='flex flex-col space-y-7'>
       <h2>Multi-Step Form</h2>
       {step === 1 && (
         <form onSubmit={handleSubmit}>
-          <div>
+          <div className='mb-5'>
             <label>First Name:</label>
             <input
               type="text"
@@ -67,7 +67,7 @@ const Forms = () => {
               onChange={handleChange}
             />
           </div>
-          <div>
+          <div className='mb-5'>
             <label>Last Name:</label>
             <input
               type="text"
@@ -77,12 +77,12 @@ const Forms = () => {
             />
           </div>
           {errors.name && <p>{errors.name}</p>}
-          <button type="submit">Next</button>
+          <button type="submit" className='my-5 bg-red-500'>Next</button>
         </form>
       )}
       {step === 2 && (
         <form onSubmit={handleSubmit}>
-          <div>
+          <div className='mb-5'>
             <label>Email:</label>
             <input
               type="email"
@@ -91,7 +91,7 @@ const Forms = () => {
               onChange={handleChange}
             />
           </div>
-          <div>
+          <div className='mb-5'>
             <label>Password:</label>
             <input
               type="password"
@@ -100,7 +100,7 @@ const Forms = () => {
               onChange={handleChange}
             />
           </div>
-          <div>
+          <div className='mb-5'>
             <label>Confirm Password:</label>
             <input
               type="password"
@@ -110,17 +110,17 @@ const Forms = () => {
             />
           </div>
           {errors.credentials && <p>{errors.credentials}</p>}
-          <button type="submit">Next</button>
+          <button type="submit" className='my-5 bg-red-500'>Next</button>
         </form>
       )}
       {step === 3 && (
-        <div>
+        <div className='mb-5'>
           <h2>Confirmation</h2>
           <p>First Name: {formData.firstName}</p>
           <p>Last Name: {formData.lastName}</p>
           <p>Email: {formData.email}</p>
-          <button onClick={() => setStep(step - 1)}>Back</button>
-          <button onClick={handleSubmit}>Submit</button>
+          <button onClick={() => setStep(step - 1)} className='my-5 bg-red-500 mx-5'>Back</button>
+          <button onClick={handleSubmit} className='mb-5 bg-red-500'>Submit</button>
         </div>
       )}
     </div>

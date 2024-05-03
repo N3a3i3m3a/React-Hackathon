@@ -75,7 +75,7 @@ const Forms = () => {
 
   return (
     <div className='flex flex-col space-y-7 text-white mt-5 w-[30%]'>
-      <h2>Multi-Step Form</h2>
+      <h2 className='text-center text-2xl'>Multi-Step Form</h2>
       {step === 1 && (
         <form onSubmit={handleSubmit}>
           <div className='mb-5'>

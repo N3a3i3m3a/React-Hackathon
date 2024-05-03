@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const Pages = () => {
   return (
-    <nav>
+    <section className=' w-full flex flex-row justify-around bg-white fixed p-5'>
       <div>
       <NavLink to='/Hooks'>Basic hooks</NavLink>
       </div>
@@ -34,7 +34,7 @@ const Pages = () => {
       <div>
       <NavLink to='/State-propagation'>State propagation</NavLink>
       </div>
-    </nav>
+    </section>
   )
 }
 
